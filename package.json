@@ -1,0 +1,17 @@
+{
+  "name": "lambda-to-S3-publish",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "happysreekanth@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-bundle": "^2.0.0"
+  },
+  "scripts": {
+    "deploy": "serverless deploy --force"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.723.0",
+    "axios": "^0.19.2"
+  }
+}
